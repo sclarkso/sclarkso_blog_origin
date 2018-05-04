@@ -26,7 +26,7 @@ Installing and running mitmproxy is simple, and covered well here: [http://docs.
 
 
 <figure>
-  <a href="{{site.url}}/assets/images/screenshot.png"><img src="{{site.url}}/assets/images/screenshot.png" alt="my alt text"/></a>
+  <a href="{{site.url}}/assets/images/screenshot.png"><img src="{{site.url}}/assets/images/screenshot.png" alt="mitmproxy"/></a>
   <figcaption>mitmproxy</figcaption>
 </figure>
 
@@ -37,7 +37,7 @@ The next stop was to set up that proxy on my android device, and then using the 
 
 
 <figure>
-  <a href="{{site.url}}/assets/images/mitmsanitized.png"><img src="{{site.url}}/assets/images/mitmsanitized.png" alt="my alt text"/></a>
+  <a href="{{site.url}}/assets/images/mitmsanitized.png"><img src="{{site.url}}/assets/images/mitmsanitized.png" alt="mitmproxy"/></a>
   <figcaption>mitmproxy</figcaption>
 </figure>
 
@@ -46,7 +46,7 @@ The next stop was to set up that proxy on my android device, and then using the 
 The app uses an API with no authentication, that runs over HTTP.  Because of this I was able to quickly determine the endpoints for displaying the current temperature in every room which was my first goal with this project.
 
 <figure>
-  <a href="{{site.url}}/assets/images/hass-sanitized1.png"><img src="{{site.url}}/assets/images/hass-sanitized1.png" alt="my alt text"/></a>
+  <a href="{{site.url}}/assets/images/hass-sanitized1.png"><img src="{{site.url}}/assets/images/hass-sanitized1.png" alt="HASS GUI"/></a>
   <figcaption>HASS GUI</figcaption>
 </figure>
 
@@ -58,7 +58,7 @@ I then got Home Assistant (referred to as ‘HASS’ going forward) up and runni
 I then had to write a custom sensor in order to display this information in HASS and be able to use the information dynamically in other automations and alerts.  HASS configuration is all done in YAML, and the sensor I wrote is written in python (which I have been trying to learn).  Through HASS’s documentation ([https://home-assistant.io/docs/, https://home-assistant.io/cookbook/](https://home-assistant.io/docs/)) and other people’s completed sensors ([https://community.home-assistant.io/](https://community.home-assistant.io/), [https://github.com/search?q=topic%3Ahome-assistant-config&type=Repositories](https://github.com/search?q=topic%3Ahome-assistant-config&type=Repositories)) I was able to get a working sensor together over the course of a few hours.  I can now see the temperature in every room with a temperate sensor installed, and going forward will be able to automatically adjust the temperature in those rooms based on occupancy, time of day, and any other sensing available to HASS (which is extensive).
 
 <figure>
-  <img src="{{site.url}}/assets/images/temps.png" alt="my alt text"/>
+  <img src="{{site.url}}/assets/images/temps.png" alt="Temps"/>
   <figcaption>Group of Current Temperatures (in Celsius)</figcaption>
 </figure>
 

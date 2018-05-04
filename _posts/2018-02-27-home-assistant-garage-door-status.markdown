@@ -30,7 +30,7 @@ Integrating the Xiaomi gateway is an involved process requiring the use of Xiaom
 All CLI configuration for HASS is done via YAML files, and follows much of the same formatting as Ansible.  So luckily knowledge of one helps with the other.  I have anxiety about the garage door being left open, so this was one of the first automations I worked on.  It uses a Xiaomi door sensor I have mounted on the arm of the garage door opener.  It’s basically a reed switch with a Zigbee module.  If the magnet in the small module isn’t holding the circuit in the large module closed, then an ‘open’ signal is sent to the gateway and ultimately HASS.
 
 <figure>
-  <img src="{{site.url}}/assets/images/gd.gif" alt="my alt text"/>
+  <img src="{{site.url}}/assets/images/gd.gif" alt="Sensors"/>
   <figcaption>Mounted Sensor just above quick disconnect arm</figcaption>
 </figure>
 

@@ -32,14 +32,14 @@ There are many x86 development boards on the market today.  The ones I consider
 Of the 4, only 2 had models with more than 4GB's of RAM.  OpenShift recommended specifications are 16Gb's of RAM per node, so I thought anything less than 4 would be a stretch.  I chose the UP board based on the fact that it was the same size as a raspberry pi, which would give me many more options for cases and accessories, that it was slightly cheaper, and that it was available for shipping to Australia.
 
 <figure>
-  <a href="{{site.url}}/assets/images/20180424_083037.jpg"><img src="{{site.url}}/assets/images/20180424_083037.jpg" alt="my alt text"/></a>
+  <a href="{{site.url}}/assets/images/20180424_083037.jpg"><img src="{{site.url}}/assets/images/20180424_083037.jpg" alt="His name is Orangez"/></a>
   <figcaption>The 3 nodes and my assistant</figcaption>
 </figure>
 
 When the boards arrived I [updated their firmware ](https://wiki.up-community.org/Bios_Update)and installed Red Hat Enterprise Linux (RHEL) 7.4.  I considered using [RHEL Atomic Host ](https://www.redhat.com/en/resources/enterprise-linux-atomic-host-datasheet)but decided on standard RHEL as I have more experience with it.  Alternatively, you can use Centos 7.4 with identical results.
 
 <figure>
-  <a href="{{site.url}}/assets/images/screen-shot-2018-04-24-at-10-04-27-am.png"><img src="{{site.url}}/assets/images/screen-shot-2018-04-24-at-10-04-27-am.png" alt="my alt text"/></a>
+  <a href="{{site.url}}/assets/images/screen-shot-2018-04-24-at-10-04-27-am.png"><img src="{{site.url}}/assets/images/screen-shot-2018-04-24-at-10-04-27-am.png" alt="firmware installation"/></a>
   <figcaption>Firmware Installation</figcaption>
 </figure>
 
@@ -48,7 +48,7 @@ The [install](https://access.redhat.com/documentation/en-us/red_hat_enterprise_l
 I then started and enabled sshd, set static IP's and hostnames, configured /etc/hosts, and ran subscription-manager (RHEL Licensing) on all the nodes to prepare them for OpenShift installation.  I also created 20 NFS shares on a USB 3 Flash Drive on the 'Master' node for OpenShift.
 
 <figure>
-  <a href="{{site.url}}/assets/images/20180420_095502.jpg"><img src="{{site.url}}/assets/images/20180420_095502.jpg" alt="my alt text"/></a>
+  <a href="{{site.url}}/assets/images/20180420_095502.jpg"><img src="{{site.url}}/assets/images/20180420_095502.jpg" alt="Melvin Hop Shocker IIPA"/></a>
   <figcaption>Mocked up in case</figcaption>
 </figure>
 
