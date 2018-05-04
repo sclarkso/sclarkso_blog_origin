@@ -17,6 +17,8 @@ author:
   name:           'Steven Clarkson'
 #  url:
 
+
+
 paginate:         5
 # paginate_path:    '/page:num'
                     # Or '/blog/page:num' if you want to move your index pages
@@ -25,6 +27,11 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-analytics
+
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-118783511-1
 
 # Custom vars
 version:            3.6.0
