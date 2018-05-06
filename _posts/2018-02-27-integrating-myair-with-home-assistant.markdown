@@ -10,6 +10,9 @@ wordpress_id: 9
 categories:
 - HASS
 - Tech
+tags:
+- HASS
+- tech
 ---
 
 The heating and cooling in my new home was controlled by an app running on a cheap android tablet mounted on the wall called [MyAir](https://www.advantageair.com.au/product/myair/).  That tablet is directly wired to a control unit, but you can install an app on other mobile devices (IOS/Android only) that communicate with the tablet to control the air conditioning/heat (and lights if you have that feature; I do not).  The app is limited in the options it provides and I wanted more control over my air conditioning from any device (including PC’s).  I decided to see if this was possible.  I started out planning to write a simple webpage to display the temperatures throughout the house and simply control things, but then decided to leverage an existing project for home automation called “[Home Assistant](https://www.home-assistant.io)”  This made it both quicker and easier to integrate with other home automation technology.

@@ -8,6 +8,10 @@ title: 'World''s Tiniest OpenShift cluster, with a Mobile twist: Part 1'
 wordpress_id: 46
 categories:
 - Tech
+tags:
+- tech
+- openshift
+- rhmap
 ---
 
 I decided I needed an OpenShift cluster at home for testing, and instead of doing it the easy way with [Minishift](https://docs.openshift.org/latest/minishift/index.html), I decided I wanted to try to do it the hard way and run it on some sort of development board.   Given that my eventual goal was to run Red Hat's Mobile Application Platform ([RHMAP](https://www.redhat.com/en/technologies/mobile/application-platform)) on the OpenShift on this cluster,  I felt that an ARM-based board was probably outside of my capabilities and I started researching Intel x86 based boards.

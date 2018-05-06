@@ -7,6 +7,9 @@ link: https://sclarkso860540808.wordpress.com/2018/04/05/variable-expansion-in-s
 slug: variable-expansion-in-sudo-over-ssh-with-passwords
 title: Variable Expansion in Sudo over SSH with Passwords
 wordpress_id: 44
+tags:
+- ssh
+- tips
 ---
 
 The trick is to set the ssh command as a variable so that the expansion happens at the correct time.

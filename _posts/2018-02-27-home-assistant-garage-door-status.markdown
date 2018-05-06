@@ -10,6 +10,9 @@ wordpress_id: 18
 categories:
 - HASS
 - Tech
+tags:
+- HASS
+- tech
 ---
 
 In my previous post I went over basically how to get [Home Assistant](https://hass.io) up and running.  In this post I will document one of the automations I have written.
